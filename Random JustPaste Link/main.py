@@ -82,6 +82,7 @@ while True:
         
         for title in title_tag:
             if rsp_code == 200 or rsp_code == 202:
+                print("")
                 print(url)
                 if input_want_title == "Y" or input_want_title == "y":
                     print(title.get_text())
