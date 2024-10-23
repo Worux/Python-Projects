@@ -14,7 +14,7 @@ def clear_terminal(): # Checks what system it is, and clears terminal that way.
 clear_terminal()
 
 while True:
-    print("[?] Enter a pin. Minimum 4 char")
+    print("[?] Enter a pin. Minimum 4 length.")
     input_pin = input(">>> ")
         
     if not input_pin.isdigit(): # Checks if input pin is not digit.
